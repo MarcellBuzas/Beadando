@@ -1,0 +1,157 @@
+body { 
+  text-align: center;
+  font-family:Times New Roman;
+  color:brown;
+  font-style: oblique;
+  font-size:large; /* Eredeti medium */
+  background-image: linear-gradient(90deg, #E8CA23, #FFFFCC);
+  margin: 30px; /* Én írta bele */
+}
+
+
+
+
+
+/*Kivettem
+
+#contaner
+    { width:790px;height:auto; margin:auto; text-align:left; display:block;
+}
+
+*/
+
+
+
+
+
+/* Én írtam bele */
+
+h2{
+  text-align: left;
+}
+
+
+p{
+  text-align: left;
+  text-align: justify;
+}
+
+
+
+h3{
+  font-size:xx-large
+}
+
+
+
+/* Csabi */
+
+
+header {
+  color:brown;
+  border-radius: 0px;
+  padding: 10px;
+/* Kiszedtem a margin: 0px; */
+}
+
+
+header img {
+  float: left;
+  margin: 15px 20px 5px 50px;         /* Eredeti: margin: 15px 20px 5px 0px; */
+  border-radius: 10px;
+  width: 200px;                             /* Én írtam bele */
+  object-fit: cover;                       /* Én írtam bele */
+}
+
+
+
+div#nav { 
+  border-radius: 0px;
+  vertical-align: top; 
+  margin: 0 auto;
+  border:10px;
+}
+
+
+nav {
+    
+  margin: 0px 10px 0px 0px;
+  border-radius: 10px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 15px 0px;
+
+}
+
+
+nav ul li {
+  font-size: x-large;
+display:inline;
+  padding: 0px 15px;;
+}
+
+nav ul li.active {
+
+color:black;
+  border:  3px solid brown;
+   border-radius: 50px;
+   font-size:x-large;
+
+}
+
+nav ul a {
+  text-decoration: none;
+  color: brown;
+}
+
+
+/* Én írtam bele */
+
+.galeria{
+  text-align: center;
+}
+
+
+/* Csabi */
+
+div.kep {
+  color:brown;
+  display: inline-block;
+  margin-right: 12px;
+
+}
+div.kep img {
+  color: brown;
+  width: 200px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border-radius: 10px ;
+  float: none !important;
+}
+
+div#content img{
+  width: 15em;
+  float:right;
+  border-radius:10px;
+  margin:0px 20px 10px 10px;
+}
+
+
+
+/* Én írtam bele */
+.kapcsolat{
+  text-align: center;
+}
+
+
+
+/* Belepes fül-höz */
+ 
+input[type="text"].long {
+  width: 98%;
+  max-width: 455px;
+}
